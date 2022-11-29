@@ -10,7 +10,11 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/">
      -->
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-</head>
+     <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    </head>
 <body>
     <!-- mAIN CONTAINER START -->
     <div class="main-container">
@@ -23,18 +27,18 @@
                 <span></span>
             </div>
             <ul class="nav">
-                <li><a href="#" class="active"><i class="fa fa-home"></i> Home</a></li>
-                <li><a href="#"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#"><i class="fa fa-list"></i>Services</a></li>
-                <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li>
-                <li><a href="#"><i class="fa fa-comments"></i>Contact</a></li>
+                <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#service"><i class="fa fa-list"></i>Certification</a></li>
+                <!-- <li><a href="#"><i class="fa fa-briefcase"></i>Portfolio</a></li> -->
+                <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
             </ul>
         </div>
         <!-- aside End -->
         <!-- Main Content start -->
         <div class="main-content">
             <!-- =====Home Section Start -->
-            <section class="home section hidden">
+            <section class="home section " id="home">
                 <div class="container">
                     <div class="row">
                         <div class="home-info padd-15">
@@ -45,14 +49,14 @@
                             <a href="#contact" class="btn hire-me">Hire Me</a>
                         </div>
                         <div class="home-img padd-15">
-                            <img src="hero.jpeg" alt="">
+                            <img src="hero.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </section>
             <!-- =====Home Section End -->
             <!-- =====About Section Start -->
-            <section class="about section">
+            <section class="about section " id="about">
                 <div class="container">
                     <div class="row">
                        <div class="section-title padd-15">
@@ -96,7 +100,7 @@
                                             <p>City: <span>Chennai</span></p>
                                         </div>
                                         <div class="info-item padd-15">
-                                            <p>Freelnace : <span>Avilable</span></p>
+                                            <p>Freelance : <span>Avilable</span></p>
                                         </div>
                                     </div>
                                     <div class="row">
@@ -149,9 +153,74 @@
                             <div class="row">
                                 <div class="education padd-15">
                                     <h3 class="title">Education</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-darkf">
+                                                <!-- ======timeline item ======> -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2018 - 2019
+                                                    </h3>
+                                                    <h4 class="timeline-title">10th</h4>
+                                                    <p class="timeline-text">ST.JOHNS MATRIC HIGH SCHOOL </p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2019 - 2020
+                                                    </h3>
+                                                    <h4 class="timeline-title">HIGH SCHOOL</h4>
+                                                    <p class="timeline-text">BHARATHIYAR MATRIC HR SEC SCHOOL</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2020 - 2024
+                                                    </h3>
+                                                    <h4 class="timeline-title">BTECH CSE</h4>
+                                                    <p class="timeline-text">SRM UNIVERSITY
+                                                        KATTANKULUTHUR,CHENGALPATTU</p>
+                                                </div>
+                                            </div>
+                                        </div>   
+                                    </div>
                                 </div>
                                 <div class="experience padd-15">
                                     <h3 class="title">Experience</h3>
+                                    <div class="row">
+                                        <div class="timeline-box padd-15">
+                                            <div class="timeline shadow-darkf">
+                                                <!-- ======timeline item ======> -->
+                                                <!-- <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                    </h3>
+                                                    <h4 class="timeline-title">Master in Computer in Science</h4>
+                                                    <p class="timeline-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, facilis repellat. Blanditiis corrupti labore maxime facilis accusamus provident
+                                                        , mollitia quae at nisi laudantium eveniet enim.</p>
+                                                </div>
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2013 - 2015
+                                                    </h3>
+                                                    <h4 class="timeline-title">Master in Computer in Science</h4>
+                                                    <p class="timeline-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, facilis repellat. Blanditiis corrupti labore maxime facilis accusamus provident
+                                                        , mollitia quae at nisi laudantium eveniet enim.</p>
+                                                </div> -->
+                                                <div class="timeline-item">
+                                                    <div class="circle-dot"></div>
+                                                    <h3 class="timeline-date">
+                                                        <i class="fa fa-calendar"></i> 2021 - 2022
+                                                    </h3>
+                                                    <h4 class="timeline-title">NETWORK DESIGN</h4>
+                                                    <p class="timeline-text">Network Design proposal for small Office</p>
+                                                </div>
+                                            </div>
+                                        </div>   
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -159,13 +228,163 @@
                 </div>
             </section>
             <!-- =====About Section End -->
+            <!-- =====certification Section Start -->
+            <section class="service section " id="service">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Certification</h2>
+                        </div>
+                    </div>
+                    <div class="container">
+                        <div class="row gy-4">
+                            <div class="col-sm">
+                                <div class="card h-100">
+                                    <img src="https://static.wixstatic.com/media/5ad73a_fd057b1896b7404196c6911d597b9aca~mv2.jpg/v1/fill/w_327,h_177,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/aws%20logo_edited.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">AWS</h5>
+                                        <p class="card-text">A Certified Course by AWS on Cloud Operations on the  AWS Platform
+                                        </p>
+                                        <a href="https://drive.google.com/file/d/1Fu23i-t3RMMbZjn4V4DAHJ1EA3AlczJ8/view?usp=share_link" target="_blank"class="btn btn-primary">CERTIFICATE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card h-100">
+                                    <img src="https://static.wixstatic.com/media/5ad73a_23da96c6bd954e51aef21ea9e071262e~mv2.jpg/v1/fill/w_310,h_259,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/5ad73a_23da96c6bd954e51aef21ea9e071262e~mv2.jpg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">HackerRank</h5>
+                                        <p class="card-text">
+                                            Participated in multiple hackerrank contests in Python, c, c++, python and sql.</p>
+                                        <a href="https://drive.google.com/file/d/1HX2Gh-w_5JZTKjTb8IiIAEJ-MAaAGk2S/view?usp=share_link" target="_blank"class="btn btn-primary">CERTIFICATE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card h-100">
+                                    <img src="https://i.ytimg.com/vi/iKg0VTfrfhQ/hqdefault.jpg?sqp=-oaymwEcCNACELwBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCybJKA9j0mPUZ6OM0pK33QfbuAqg" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Devtown</h5>
+                                        <p class="card-text">Instagram Clone using HTML&CSS</p>
+                                        <a href="https://drive.google.com/file/d/1OV1tP526JFaaaP-FiNEv58cDyXL8-sSh/view?usp=share_link" target="_blank"class="btn btn-primary">CERTIFICATE</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm">
+                                <div class="card h-100">
+                                    <img src="https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://s3.amazonaws.com/coursera-course-photos/83/e258e0532611e5a5072321239ff4d4/jhep-coursera-course4.png?auto=format%2Ccompress%2C%20enhance&dpr=1&w=330&h=330&fit=fill&q=25" class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 class="card-title fw-bold">Coursera</h5>
+                                        <p class="card-text">Introduction to Web Development with HTML, CSS, JavaScript</p>
+                                        <a href="https://drive.google.com/file/d/1viNSn4cVUX5i2_-4DzeoGC8TdXKLORUS/view?usp=share_link" target="_blank" class="btn btn-primary">CERTIFICATE</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <br> 
+                        <div class="section-title padd-15">
+                            <h2>Project</h2>
+                        </div>
+                        <div class="container">
+                            <div class="row gy-4">
+                                <div class="col-sm">
+                                    <div class="card h-25">
+                                        <img src="https://images.squarespace-cdn.com/content/v1/540f5515e4b06c4e8629c108/1600861262973-E4KXLCGDKXJAB7D9UZ6T/network-design-and-build.png?format=2500w" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title fw-bold">Computer Networks Project</h5>
+                                            <p class="card-text">Network Design proposal for small Office
+                                            </p>
+                                            <a href="https://drive.google.com/file/d/1YbS0H4La3vXsZbdc7BR0rERCZ5Qu_yq6/view?usp=share_link" target="_blank" class="btn btn-primary">View</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <!-- Contact Section Start -->
+            <section class="contact section " id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="section-title padd-15">
+                            <h2>Contact Me</h2>
+                        </div>
+                    </div>
+                    <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
+                    <h4 class="contact-sub-title padd-15">I'M AT YOUR SERVICES</h4>
+                    <div class="row">
+                        <!-- Contact info item start -->
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-phone"></i></div>
+                            <h4>Call Us On</h4>
+                            <p>+91 9080946517</p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-map-marker-alt"></i></div>
+                            <h4>Office</h4>
+                            <p>Chennai</p>
+                        </div>
+                        <div class="contact-info-item padd-15">
+                            <div class="icon"><i class="fa fa-envelope"></i></div>
+                            <h4>Email</h4>
+                            <p>ra5088@srmist.edu.in</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <div class="icon"><i class="fa fa-globe-europe"></i></div>
+                            <h4>wesite</h4>
+                            <p>www.srmist.edu.in</p>
+                        </div>
+                        <!-- Contact info item end -->
+                    </div>
+                    <h3 class="contact-title padd-15">SEND ME AND EMAIL </h3>
+                    <h4 class="contact-sub-title padd-15">I'M VERY RESPOSIVE TO MESSAGE</h4>
+                    <!-- Contact form  -->
+                    <div class="row">
+                        <div class="contact-form padd-15">
+                            <div class="row">
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="form-item col-6 padd-15">
+                                    <div class="form-group">
+                                        <input type="email" class="form-control" placeholder="Email">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="Subject">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <div class="form-group">
+                                        <textarea name="" class="form-control"  placeholder="Message" ></textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="form-item col-12 padd-15">
+                                    <button type="submit" class="btn" >Send Message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
         <!-- Main content End -->
     </div>
     <!-- mAIN CONTAINER START -->
 
     <!-- Js file -->
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
     <script src="script.js"></script>
 
 </body>
