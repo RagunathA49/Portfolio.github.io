@@ -367,6 +367,10 @@ h3.my-profession{
     margin-right: 15px;
     margin-top : 10px;
 }
+.buttons a{
+    color:white;
+    background-color: #ec3818;
+}
 .about .about-content .skills{
     flex: 0 0 40%;
     max-width:40%;
