@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PortFolio</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- swiper cdn -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+<link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
+
+<!-- hover css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.0/css/hover-min.css" integrity="sha512-glciccPoOqr5mfDGmlJ3bpbvomZmFK+5dRARpt62nZnlKwaYZSfFpFIgUoD8ujqBw4TmPa/F3TX28OctJzoLfg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- nav fontwesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+
+
+
+</head>
+<body>
+    <header>
+     <nav>
+        <div class="logo">
+            <a id="logo" href="#">
+                <img src="photo/ragu_logo.png">
+            </a>
+        </div>
+        <input type="checkbox" id="click">
+        <label for="click" class="menu-btn">
+          <i class="fas fa-bars"></i>
+        </label>
+        <ul>
+          <li><a class="active" href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Skills</a></li>
+          <li><a href="#">Education</a></li>
+          <li><a href="#">Certificates</a></li>
+          <li><a href="#">Work</a></li>
+          <li><a href="#">Experience</a></li>
+          <li><a href="#">Contact</a></li>
+          <div class="nav-btn">
+            <a href="#">Hire me</a>
+        </div>
+        </ul>
+        
+      </nav>
+    </header>
+ 
+    
+    <div class="banner-container">
+        <div class="main-ban-con">
+            <div class="banner-text">
+                <h1>Hi There,</h1>
+                <h1 class="ml6">
+                    <span class="text-wrapper">
+                      <span class="letters">I'm Raguath.A</span>
+                    </span>
+                </h1>
+                <!-- <h1 class="ml2"></h1> -->
+                <h2>I'm a <span> Full stack Developer</span></h2>
+            </div>
+            <div class="banner-btn">
+  
+                <button type="button" class="btn btn-primary btn-icon-text">
+                    About me <i class="fa-solid fa-circle-down fa-bounce"></i>
+                </button>
+                <button type="button" class="btn btn-outline-success btn-icon-text">
+                    Download Cv <i class="fa-solid fa-download fa-beat-fade"></i>
+                </button>
+            </div>
+            <div class="banner-icons">
+                <div class="github">
+                    <i class="fa-brands fa-github"></i>
+                </div>
+                <div class="twitter">
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+                <div class="Linkedin">
+                    <i class="fa-brands fa-linkedin"></i>
+                </div>
+                <div class="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </div>
+                <div class="email">
+                    <i class="fa-solid fa-envelope"></i>
+                </div>
+            </div>
+        </div>
+        <div class="banner-image">
+            <img src="https://static.tildacdn.com/tild3935-3066-4230-b161-326631363864/green_freelancer.svg" alt="main-character">
+        </div>
+        <div class="image-banner-con">
+            <img  class="img_move image1" src="photo/wifi.png" alt="">
+            <img  class=" img_move image2" src="photo/code.png" alt="">
+            <img  class=" img_move image3" src="photo/heart.png" alt="">
+            <img  class=" img_move image4" src="photo/message.png" alt="">
+            <img class=" img_move image5" src="https://d2pas86kykpvmq.cloudfront.net/img_kukla-2.0/img-226-p-500.png" alt="">
+        </div>
+    </div>
+
+
+    <!-- About Me -->
+<section id="about">
+    <div class="about-container">
+        <div class="title">
+            <img  src="photo/Male User.png" alt="">
+            <h1>About <span>Me</span></h1>
+        </div>
+        <img id="curved-arrow"src="photo/curved-arrow.png" alt="">
+        <div class="flex-container">
+            <img src="photo/photo.jpg" alt="">
+            <div class="about-content">
+                <div class="data">
+                    <h1>I'm <span>Ragunath</span></h1>
+                <h2 id="role">Full Stack Developer</h2>
+                <p>I am a 20 year old computer science student currently pursuing a B.TECH degree 
+                    from SRM University. I'm an aspiring full-stack developer and 
+                    security researcher who enjoys programming and designing 
+                    networks. I am currently in 4th year learning and developing 
+                    new skills. I face every obstacle and lead my team as 
+                    efficiently as possible.</p>
+                <h2><span>Email: </span>ragunathchezhiyan@gmail.com</h2>
+                <h2><span>Place: </span>Chengalpattu, Tamil Nadu</h2>
+                </div>
+                
+                <div class="about-btn">
+                    <a href="#">Resume</a>
+                    <i class="fa-solid fa-download fa-shake"></i>
+                </div>
+            </div>
+        </div>
+        <div class="circle-container">
+            <div class="circle circle1"></div>
+        <div class="circle circle2"></div>
+        <div class="circle circle3"></div>
+        <div class="big-circle">
+        </div>
+        </div>
+        
+    </div>
+</section>
+<!-- Skills -->
+
+<section id="skills">
+<div class="skills-container">
+    <div class="sk-title">
+        <img src="https://img.icons8.com/color/48/admin-settings-male.png" alt="admin-settings-male"/>
+        <h1>Skills</h1>
+    </div>
+    <div class="sk-men-lap">
+        <img id="men-lap" width="150" height="190" src="photo/men-laptop.png" alt="">
+        <div class="sk-parent">
+            <div class="plant">
+                <img id="i1"width="35" height="35" src="https://img.icons8.com/color/48/html-5--v1.png" alt="html-5--v1"/>
+            </div>
+            <img id="i2" width="35" height="35" src="https://img.icons8.com/color/48/css3.png" alt="css3"/>
+            <img id="i3" width="35" height="35" src="https://img.icons8.com/color/48/javascript--v1.png" alt="javascript--v1"/>
+            <img id="i4"width="35" height="35" src="https://img.icons8.com/color/48/linux.png" alt="linux"/>
+            <img  id="i5"width="35" height="35" src="https://img.icons8.com/color-glass/48/bootstrap.png" alt="bootstrap"/>
+            <img id="i6" width="30" height="30" src="https://img.icons8.com/color/48/figma--v1.png" alt="figma--v1"/>
+            <img id="i7" width="44" height="44" src="https://img.icons8.com/color/96/mysql-logo.png" alt="mysql-logo"/>
+            <img id="i8" width="35" height="35" src="https://img.icons8.com/color/48/python--v1.png" alt="python--v1"/>
+            <img id="i9"width="35" height="35" src="https://img.icons8.com/parakeet/48/php.png" alt="php"/>
+            <img  id="i10"width="35" height="35" src="https://img.icons8.com/color/48/code.png" alt="code"/>
+            <img id="i11"width="35" height="35" src="https://img.icons8.com/ios-filled/50/github.png" alt="github"/>
+            <img id="i12" width="35" height="35" src="https://img.icons8.com/fluency/48/docker.png" alt="docker"/>
+        </div>
+    </div>
+</div>
+</section>
+ <!-- Eduction  -->
+ <section id="education">
+ <div class="education-container">
+    <div class="edu-title">
+        <img width="40" height="40" src="https://img.icons8.com/color/48/student-male--v1.png" alt="student-male--v1"/>
+        <h1>Education</h1>
+        
+    </div>
+    <div class="flex-edu-container">
+        <div class="high-school">
+            <img src="photo/cartoon-character.jpg" alt="">
+            <div class="contentx">
+                <h2>High School</h2>
+                <h3>ST.JOHNS MATRICULATION HIGHER SECONDARY SCHOOL</h3>
+            </div>
+            <div class="move-highsl year-com">
+                <h2>2007-2017</h2>
+                <div class="rec"></div>
+                <h2>Completed</h2>
+            </div>
+        </div>
+        <div class="high-school">
+            <img id="img2"src="photo/schoolstudetn2.jpg" alt="">
+            <div class="content">
+                <h2>Higher Secondary School</h2>
+                <h3>BHARATHIYAR MATRICULATION HIGHER SECONDARY SCHOOL</h3>
+            </div>
+            <div class="move-highsl year-com">
+                <h2>2018-2020</h2>
+                <div class="rec"></div>
+                <h2>Completed</h2>
+            </div>
+        </div>
+        <div class="high-school">
+            <img id ="img3"src="photo/college stude.jpg" alt="">
+            <div class="content">
+                <h2>Bachelor Of Engineering And Technology</h2>
+                <h3>->SRM INSTITUTE OF SCIENCE AND TECHNOLOGY</h3>
+            </div>
+            <div class="move-highsl year-com">
+                <h2>2020-2024</h2>
+                <div class="rec"></div>
+                <h2>Completed</h2>
+            </div>
+        </div>
+    
+    </div>
+ </div>
+</section>
+
+<!-- Certificate -->
+<section id="certificates">
+    <div class="certificate-container">
+        <div class="certificate-title">
+            <img width="40" height="40" src="https://img.icons8.com/color-glass/48/certificate--v1.png" alt="certificate--v1"/>
+            <h1>Certificate</h1>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                  <div class="swiper-slide ">
+                    <div class="certifi1">
+                        <img src="photo/aws.jpg" alt="">
+                        <div class="certifi1content">
+                            <h1>Cloud Operations</h1>
+                            <h3>->Aws Academy</h3>
+                        </div>
+                        <p class="description">It covers how to effectively manage AWS resources, optimize cloud infrastructure, and implement best
+                            practices for secure and efficient cloud operations.</p>
+                        <div class="certifi-btn">
+                            <a href="">Download</a>
+                            <img width="30" height="30" src="https://img.icons8.com/arcade/64/download.png" alt="download"/>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <div class="certifi1">
+                        <img src="photo/bugbounty.jpg" alt="">
+                        <div class="certifi1content">
+                            <h1>Bug Bounty</h1>
+                            <h3>->Prompt Infotech</h3>
+                        </div>
+                        <p class="description">The Bug Bounty course empowers participants to identify and responsibly disclose security
+                            vulnerabilities in software, websites, or applications, enhancing cybersecurity measures</p>
+                        <div class="certifi-btn">
+                            <a href="">Download</a>
+                            <img width="30" height="30" src="https://img.icons8.com/arcade/64/download.png" alt="download"/>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <div class="certifi1">
+                        <img src="photo/ceh.jpg" alt="">
+                        <div class="certifi1content">
+                            <h1>Certified Ethical Hacking</h1>
+                            <h3>->Prompt Infotech</h3>
+                        </div>
+                        <p class="description">The Ethical Hacking course empowers the knowledge and skills to identify and rectify cybersecurity
+                            vulnerabilities, conduct penetration testing, and fortify systems against cyber threats.</p>
+                        <div class="certifi-btn">
+                            <a href="">Download</a>
+                            <img width="30" height="30" src="https://img.icons8.com/arcade/64/download.png" alt="download"/>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                   <!-- 4 -->
+                    <div class="certifi1">
+                        <img src="photo/comptiaA.jpg" alt="">
+                        <div class="certifi1content">
+                            <h1>Comptia A+</h1>
+                            <h3>->Udemy</h3>
+                        </div>
+                        <p class="description">The Ethical Hacking course empowers the knowledge and skills to identify and rectify cybersecurity
+                            vulnerabilities, conduct penetration testing, and fortify systems against cyber threats.</p>
+                        <div class="certifi-btn">
+                            <a href="">Download</a>
+                            <img width="30" height="30" src="https://img.icons8.com/arcade/64/download.png" alt="download"/>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                     <!-- 5 -->
+                    <div class="certifi1">
+                        <img src="photo/python.jpg" alt="">
+                        <div class="certifi1content">
+                            <h1>The Python Certified</h1>
+                            <h3>->Prompt Infotech</h3>
+                        </div>
+                        <p class="description">Python is a general-purpose language, which means it can be used to build just about anything, which will be made easy with the  right tools/libraries</p>
+                        <div class="certifi-btn">
+                            <a href="">Download</a>
+                            <img width="30" height="30" src="https://img.icons8.com/arcade/64/download.png" alt="download"/>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                     <!-- 6 -->
+                    <div class="certifi1">
+                        <img src="photo/hackerrank.jpg" alt="">
+                        <div class="certifi1content">
+                            <h1>Css</h1>
+                            <h3>->HackerRank</h3>
+                        </div>
+                        <p class="description">The CSS HackerRank course hones participants' proficiency in Cascading Style Sheets, fostering
+                            advanced skills in web styling and design.
+                            </p>
+                        <div class="certifi-btn">
+                            <a href="">Download</a>
+                            <img width="30" height="30" src="https://img.icons8.com/arcade/64/download.png" alt="download"/>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <!-- 7 -->
+            <div class="certifi1">
+                <img src="photo/devtown.jpg" alt="">
+                <div class="certifi1content">
+                    <h1>Instagram Clone</h1>
+                    <h3>->Devtown</h3>
+                </div>
+                <p class="description">After Instagram Clone Bootcamp,  master HTML/CSS, creating responsive designs and gaining practical web development skills for real-world applications.
+                    </p>
+                <div class="certifi-btn">
+                    <a href="">Download</a>
+                    <img width="30" height="30" src="https://img.icons8.com/arcade/64/download.png" alt="download"/>
+                </div>
+            </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <!-- 8 -->
+            <div class="certifi1">
+                <img src="photo/download.jpg" alt="">
+                <div class="certifi1content">
+                    <h1>Database Foundation</h1>
+                    <h3>->Oracle Academy</h3>
+                </div>
+                <p class="description">The Oracle Database Foundation course provides a comprehensive understanding of Oracle
+                    database architecture and management, enabling participants to proficiently design, implement, and
+                    administer Oracle databases.
+                    </p>
+                <div class="certifi-btn">
+                    <a href="">Download</a>
+                    <img width="30" height="30" src="https://img.icons8.com/arcade/64/download.png" alt="download"/>
+                </div>
+            </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <!-- 9 -->
+            <div class="certifi1">
+                <img src="photo/sockets.jpg" alt="">
+                <div class="certifi1content">
+                    <h1>Programming Sockets</h1>
+                    <h3>->Selfmade Ninja Academy</h3>
+                </div>
+                <p class="description">The Socket Programming course equips participants with the knowledge and practical skills to develop
+                    networked applications using sockets, enabling communication between devices.
+                    </p>
+                <div class="certifi-btn">
+                    <a href="">Download</a>
+                    <img width="30" height="30" src="https://img.icons8.com/arcade/64/download.png" alt="download"/>
+                </div>
+            </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <!-- 10 -->
+            <div class="certifi1">
+                <img src="photo/ibm.jpg" alt="">
+                <div class="certifi1content">
+                    <h1>Web Development</h1>
+                    <h3>->IBM</h3>
+                </div>
+                <p class="description">After IBM's Web Development course, you acquire proficiency in HTML, CSS, and JavaScript, empowering you to create dynamic, interactive websites.
+                    </p>
+                <div class="certifi-btn">
+                    <a href="">Download</a>
+                    <img width="30" height="30" src="https://img.icons8.com/arcade/64/download.png" alt="download"/>
+                </div>
+            </div>
+                  </div>
+                  <div class="swiper-slide ">
+                                <!-- 11 -->
+            <div class="certifi1">
+                <img src="photo/network-security.jpg" alt="">
+                <div class="certifi1content">
+                    <h1>Network security</h1>
+                    <h3>->Prompt Infotech</h3>
+                </div>
+                <p class="description">The certification attests that the individual, having enhanced skills, is proficient in key areas including
+                    network fundamentals, switching, routing, firewall, and the utilization of network security tools.
+                    </p>
+                <div class="certifi-btn">
+                    <a href="">Download</a>
+                    <img width="30" height="30" src="https://img.icons8.com/arcade/64/download.png" alt="download"/>
+                </div>
+            </div>
+                  </div>
+                  <div class="swiper-slide ">
+                    <!-- 12 -->
+            <div class="certifi1">
+                <img src="photo/redteam.jpg" alt="">
+                <div class="certifi1content">
+                    <h1>Database Security</h1>
+                    <h3>->RedTeam Hacker Academy</h3>
+                </div>
+                <p class="description">The Database Security course at RedTeam Hacker Academy equips participants with in-depth
+                    knowledge and hands-on skills to identify, assess, and fortify database vulnerabilities.
+                    </p>
+                <div class="certifi-btn">
+                    <a href="">Download</a>
+                    <img width="30" height="30" src="https://img.icons8.com/arcade/64/download.png" alt="download"/>
+                </div>
+            </div>
+                  </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+</section>
+
+<!-- Work -->
+<section id="work">
+<div class="work-container">
+    <div class="work-title">
+        <img width="40" height="40" src="https://img.icons8.com/color-glass/48/project-management.png" alt="project-management"/>
+        <h1>Projects</h1>
+    </div>
+    <div class="project-parent">
+        <div class="work-proj-container">
+            <img id="blood-bank" src="photo/blood 1.jpg" alt="">
+
+            <div class="total-content">
+                <div class="proj-title">
+                    <h1>BLOOD BLANK <span>MANAGEMENT SYSTEM</span></h1>
+                </div>
+                <div class="proj-content">
+                    <p>This project aims to develop a Blood Bank Management System using HTML, CSS, PHP, SQL.</p>
+                </div>
+                <div class="proj-btns">
+                    <div class="view-btn">
+                        <i class="fa-solid fa-eye fa-beat"></i>
+                        <a href="#">VIEW</a>
+                    </div>
+                    <div class="code-btn">
+                        <i class="fa-solid fa-code fa-beat"></i>
+                        <a href="#">CODE</a>
+                    </div>
+                </div>
+                <hr class="line">
+                <div class="project-prog">
+                    <h2>Tools:</h2>
+                    <div id="skill1">#HTML</div>
+                    <div id="skill2">#CSS</div>
+                    <div id="skill3">#JavaScript</div>
+                    <div id="skill4">#Php</div>
+                </div>
+            </div>
+        </div>
+        <div class="work-proj-container">
+            <img id="net-design"src="photo/Network-Design.jpg" alt="">
+
+            <div class="total-content ">
+                <div class="proj-title">
+                    <h1>NETWORK <span>DESIGN </span>PROPOSAL </h1>
+                </div>
+                <div class="proj-content">
+                    <p>Created a secure and efficient network for a small organization using Cisco Packet Tracer, ensuring seamless communication and data integrity among connected devices while adhering to industry best practices.</p>
+                </div>
+                <div class="proj-btns">
+                    <div class="view-btn">
+                        <i class="fa-solid fa-eye fa-beat"></i>
+                        <a href="#">VIEW</a>
+                    </div>
+                    <div class="code-btn">
+                        <i class="fa-solid fa-code fa-beat"></i>
+                        <a href="#">CODE</a>
+                    </div>
+                </div>
+                <hr class="line">
+                <div class="project-prog">
+                    <h2>Tools:</h2>
+                    <div id="bb-skill1">#CiscoPacketTracer</div>
+                </div>
+            </div>
+        </div>
+        <div class="work-proj-container">
+            <img id="blood-bank" src="photo/Difference-Between-Compiler-And-Interpreter-In-Java.jpg" alt="">
+
+            <div class="total-content">
+                <div class="proj-title">
+                    <h1>INTERMEDIATE <span>CODE GENERATOR</span></h1>
+                </div>
+                <div class="proj-content">
+                    <p>An Intermediate Code Generator is a software tool that transforms high-level source code in to an intermediate language representation</p>
+                </div>
+                <div class="proj-btns">
+                    <div class="view-btn">
+                        <i class="fa-solid fa-eye fa-beat"></i>
+                        <a href="#">VIEW</a>
+                    </div>
+                    <div class="code-btn">
+                        <i class="fa-solid fa-code fa-beat"></i>
+                        <a href="#">CODE</a>
+                    </div>
+                </div>
+                <hr class="line">
+                <div class="project-prog">
+                    <h2>Tools:</h2>
+                    <div id="int-skill1">#Ubuntu</div>
+                </div>
+            </div>
+        </div>
+        <div class="work-proj-container">
+            <img id="cyber-threat" src="photo/cyber-threat.jpg" alt="">
+
+            <div class="total-content">
+                <div class="proj-title">
+                    <h1>PROTECTING HEALTHCARE DATA <span> FROM CYBERTHREATS</span></h1>
+                </div>
+                <div class="proj-content">
+                    <p>At The conference addressed protecting healthcare data from cyber threats, emphasizing advanced encryption and resilient cybersecurity. It highlighted efforts to secure sensitive information .</p>
+                </div>
+                <div class="proj-btns">
+                    <div class="view-btn">
+                        <i class="fa-solid fa-eye fa-beat"></i>
+                        <a href="#">VIEW</a>
+                    </div>
+                    <div class="code-btn">
+                        <i class="fa-solid fa-code fa-beat"></i>
+                        <a href="#">CODE</a>
+                    </div>
+                </div>
+                <hr class="line">
+                <div class="project-prog">
+                    <h2>Tools:</h2>
+                    <div id="cybt-skill1">#Esp32</div>
+                    <div id="cybt-skill2">#MAX30100</div>
+                    <div id="cybt-skill3">#Wireshark</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</section>
+<!-- Experiences -->
+<section id="experience-con">
+    <div class="exp-title">
+        <img width="54" height="54" src="https://img.icons8.com/arcade/64/briefcase-settings.png" alt="briefcase-settings"/>
+        <h1>Experience</h1>
+    </div>
+    <div class="timeline">
+        <div class="timeline-box">
+            <img src="photo/htbsrmist_logo.jpg" alt="">
+            <h1>Cyber Security Team Member</h1>
+            <h3>HackTheBox SRMIST</h3>
+            <h4>Sep 2022 - Feb 2023</h4>
+            
+        </div>
+        <div class="timeline-box">
+            <img src="https://scontent.fmaa3-3.fna.fbcdn.net/v/t39.30808-6/340112704_778426073680086_1393015058137611284_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=x7Plqjy4U7AAX-ADINK&_nc_ht=scontent.fmaa3-3.fna&oh=00_AfB0_dotig4KGpQtmgWppr4OEBx5mVmGGBa0uIgAXZnpgQ&oe=65D17FEF" alt="">
+            <h1>Posulate Infotech</h1>
+            <h3>FULL STACK WEB DEVELOPMENT INTERNSHIP</h2>
+            <h4>July 2023 - August 2023</h4>
+            <p>During my one-month internship at Posulate Infotech, I successfully completed a project where I developed a grocery website using a tech stack that included HTML, CSS, JavaScript, and PHP.This experience allowed me to enhance my web development skills and gain hands-on experience in building a functional and user-friendly e-commerce platform.</p>
+        </div>
+        <div class="timeline-divider">
+            <div class="timeline-traveler">
+                <i class="fa-solid fa-plane fa-xl "></i>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+<!--Contact -->
+<section id="contact">
+    <div class="contact-container">
+        <div class="contact-title">
+            <img width="40" height="40" src="https://img.icons8.com/color/48/contact-card.png" alt="contact-card"/>
+            <h1>GET IN TOUCH</h1>
+        </div>
+        <div class="contact-parent">
+            <img src="photo/getintouch.jpg" alt="">
+            <form action="">
+                <div class="name-form">
+                    <input type="text" id="fname" name="fname" placeholder="Name">                
+                    <i class="fa-solid fa-user fa-bounce" style="color: #0d0d0d;"></i>
+                </div>
+ 
+                <div class="name-form">
+                    <i class="fa-solid fa-envelope fa-beat-fade " style="color: #0d0d0d;"></i>
+                    <input type="text" id="email" name="email" placeholder="Email">
+                </div>
+                <div class="name-form">
+                    <i class="fa-solid fa-phone fa-shake" style="color: #0d0d0d;"></i>
+                    <input type="text" id="phone" name="phone" placeholder="Phone">
+                </div>
+                <div class="message-box">
+                    <i class="fa-solid fa-comment fa-beat" style="color: #0d0d0d;"></i>
+                    <textarea placeholder="Message"></textarea>
+                </div>
+                <button >Send <i class="fa-solid fa-paper-plane"></i></button>
+            </form>
+        </div>
+    </div>
+</section>
+<footer>
+    <div class="foot-parent">
+        
+        <div class="foot-content1">
+            <h1>Ragu PortFolio</h1>
+            <p>Thank you for visiting my personal portfolio website. Connect with me over socials.</p>
+        </div>
+        <div class="foot-link">
+            <h1>Quick Links</h1>
+            <div class="foot-child">
+                <div class="foot-link1">
+                    <div class="chdnavlink">
+                        <i class="fa-solid fa-circle-chevron-right fa-fade"></i>
+                        <h3>Home</h3>
+                    </div>
+                    <div class="chdnavlink">
+                        <i class="fa-solid fa-circle-chevron-right fa-fade"></i>
+                        <h3>About</h3>
+                    </div>
+                    <div class="chdnavlink">
+                        <i class="fa-solid fa-circle-chevron-right fa-fade"></i>
+                        <h3>Skills</h3>
+                    </div>
+                    <div class="chdnavlink">
+                        <i class="fa-solid fa-circle-chevron-right fa-fade"></i>
+                        <h3>Education</h3>
+                    </div>
+                    <div class="chdnavlink">
+                        <i class="fa-solid fa-circle-chevron-right fa-fade"></i>
+                        <h3>Certificates</h3>
+                    </div>
+                </div>
+                <div class="foot-link2">
+                <div class="chdnavlink">
+                    <i class="fa-solid fa-circle-chevron-right fa-fade"></i>
+                    <h3>Work</h3>
+                </div>
+                <div class="chdnavlink">
+                    <i class="fa-solid fa-circle-chevron-right fa-fade"></i>
+                    <h3>Experience</h3>
+                </div>
+                <div class="chdnavlink">
+                    <i class="fa-solid fa-circle-chevron-right fa-fade"></i>
+                    <h3>Contact</h3>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="foot-contact">
+            <h1>Contact Info</h1>
+            <div class="contactinfo-parent">
+                <div class="contact-info">
+                    <i class="fa-solid fa-phone " style="color: #009688;"></i>
+                    <h3>+91 xxxx xxxxxx</h3>
+                </div>
+                <div class="contact-info">
+                    <i class="fa-solid fa-envelope " style="color: #1e88e5;"></i>
+                    <h3>ragunathchezhiyan@gmail.com</h3>
+                </div>
+                <div class="contact-info">
+                    <i class="fa-solid fa-location-dot" style="color: #ff3d00;"></i>
+                    <h3>Tamil Nadu,India-603202</h3>
+                </div>
+                <div class="banner-icons">
+                    <div class="github">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+                    <div class="twitter">
+                        <i class="fa-brands fa-twitter"></i>
+                    </div>
+                    <div class="Linkedin">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </div>
+                    <div class="instagram">
+                        <i class="fa-brands fa-instagram"></i>
+                    </div>
+                    <div class="email">
+                        <i class="fa-solid fa-envelope"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <hr class="foot-line">
+    <div class="design-foot"> Designed By Ragunath.A <i class="fa-solid fa-heart" style="color: #fb0003;"></i> </div>
+</footer>
+    <!-- jAVASCRIPT FILE -->
+    <script src="./javascript.js"></script>
+    
+</body>
+</html>
+
