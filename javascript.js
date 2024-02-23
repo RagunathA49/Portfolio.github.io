@@ -1,23 +1,12 @@
-// const hamburger = document.querySelector('.hamburger');
-// const navbar = document.querySelector('ul');
 
 
-// hamburger.addEventListener('click', function () {
-//   navbar.classList.toggle('slide');
-// });
-
-
-//Optionally, prevent default action on anchor tags to prevent page jumps
-// document.querySelectorAll('.nav ul ').forEach(function (item) {
-//   item.addEventListener('click', function (event) {
-//     event.preventDefault(); // Prevent default action of anchor tag
-//     // Additional logic to handle navigation behavior if needed
-//   });
-// });
-
-
-
-
+// Nav Bar
+hamburger = document.querySelector(".hamburger");
+nav = document.querySelector("nav");
+hamburger.onclick = function() {
+    nav.classList.toggle("active");
+}
+// Nav Bar Ends
 
 // anchore tag smooth scrolling 
 var navmenuanchortag = document.querySelectorAll('.menu-items a');
@@ -74,3 +63,6 @@ var swiper = new Swiper(".mySwiper", {
       easing: "easeOutExpo",
       delay: 1000
     });
+
+
+    // text animtion
